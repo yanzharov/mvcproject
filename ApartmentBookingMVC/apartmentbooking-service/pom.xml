@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+    <groupId>com.epam</groupId>
+	<artifactId>apartmentbooking</artifactId>
+	<version>1.0.0-BUILD-SNAPSHOT</version>
+  </parent>
+  
+  <groupId>com.epam</groupId>
+  <artifactId>apartmentbooking-service</artifactId>
+  <version>1.0.0-BUILD-SNAPSHOT</version>
+  <name>apartmentbooking-service</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+  
+	<!-- Test -->
+    <mockito.version>1.10.19</mockito.version>
+
+  </properties>
+	
+  <dependencies>
+  
+    <dependency>
+      <groupId>com.epam</groupId>
+      <artifactId>apartmentbooking-dao</artifactId>
+      <version>1.0.0-BUILD-SNAPSHOT</version>
+    </dependency>
+    <!-- Test Artifacts -->
+	<dependency>
+      <groupId>org.mockito</groupId>
+	  <artifactId>mockito-all</artifactId>
+	  <version>${mockito.version}</version>
+	</dependency>
+		
+  </dependencies>
+  
+</project>

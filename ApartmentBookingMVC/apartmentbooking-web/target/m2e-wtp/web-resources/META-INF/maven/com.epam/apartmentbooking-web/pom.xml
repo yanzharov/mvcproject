@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.epam</groupId>
+    <artifactId>apartmentbooking</artifactId>
+    <version>1.0.0-BUILD-SNAPSHOT</version>
+  </parent>
+  <groupId>com.epam</groupId>
+  <artifactId>apartmentbooking-web</artifactId>
+  <version>1.0.0-BUILD-SNAPSHOT</version>
+  <name>apartmentbooking-web</name>
+  <url>http://maven.apache.org</url>
+  <packaging>war</packaging>
+  <properties>
+    <!-- Spring -->
+	<spring-framework.version>4.3.7.RELEASE</spring-framework.version>
+	
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>com.epam</groupId>
+      <artifactId>apartmentbooking-service</artifactId>
+      <version>1.0.0-BUILD-SNAPSHOT</version>
+    </dependency>
+    <!-- Spring and Transactions -->
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-webmvc</artifactId>
+		<version>${spring-framework.version}</version>
+	</dependency>
+	<!-- @Inject -->
+	<dependency>
+		<groupId>javax.inject</groupId>
+		<artifactId>javax.inject</artifactId>
+		<version>1</version>
+	</dependency>
+    <!-- Servlet -->
+	<dependency>
+    	 <groupId>javax.servlet</groupId>
+         <artifactId>javax.servlet-api</artifactId>
+     	 <version>3.1.0</version>
+      	 <scope>provided</scope>
+    </dependency>
+	<dependency>
+		<groupId>javax.servlet.jsp</groupId>
+		<artifactId>jsp-api</artifactId>
+		<version>2.1</version>
+		<scope>provided</scope>
+	</dependency>
+  </dependencies>
+  
+</project>

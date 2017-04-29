@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<USERS FIRSTNAME="Han" LASTNAME="Solo" GENDER="male" EMAIL="han_solo@gmaim.com" PHONE="111111121" ADRESS="New York" DESCRIPTION="I am a singer" ROLE="user" PASSWORD="422111"/>
+	<USERS FIRSTNAME="Han" LASTNAME="Solo" GENDER="male" EMAIL="user@gmail.com" PHONE="111111121" ADRESS="New York" DESCRIPTION="I am a singer" ROLE="user" PASSWORD="422111"/>
+</dataset>
